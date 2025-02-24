@@ -1,0 +1,28 @@
+{
+  "name": "routeql",
+  "version": "0.0.6",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir dist",
+    "watch": "babel src --out-dir dist -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fetch-dedupe": "^4.0.0-beta.1",
+    "graphql": "^0.13.2",
+    "prop-types": "^15.6.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  }
+}
